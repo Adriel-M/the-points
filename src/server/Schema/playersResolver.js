@@ -21,7 +21,7 @@ const getSortedFilteredResults = (filteredResults, sortBy) => {
 const playersResolve = (parent, {
   filter = '', offset = 0, limit = RushingStore.size, sortBy = '',
 }) => {
-  const filteredResults = RushingStore.fetch(filter.toLocaleLowerCase());
+  const filteredResults = RushingStore.fetch(filter.toLowerCase());
   const sortedFilteredResults = getSortedFilteredResults(filteredResults, sortBy);
   const endIndex = offset + limit;
 

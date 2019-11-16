@@ -20,6 +20,7 @@ module.exports = {
   },
   plugins: [
     'react',
+    'jest',
   ],
   rules: {
     "no-console": 0,
