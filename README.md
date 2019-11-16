@@ -1,5 +1,5 @@
 # The Points
-A simple web app that is powered by Express and React to display the rushing stats found [here](https://github.com/Adriel-M/the-points/blob/master/src/server/RushingStore/rushing.json).
+A simple web app that is powered by Express and React to display the rushing stats found [here](https://github.com/Adriel-M/the-points/blob/master/src/server/RushingStore/rushing.json). A demo can be found [here](https://thepoints.adrielm.dev/)
 
 ![alt text](./resources/screenshot.png "Screenshot")
 
