@@ -58,6 +58,9 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1, 1, 1, 1),
     minWidth: 120,
   },
+  select: {
+    color: theme.palette.common.white,
+  },
 }));
 
 const TopBar = (props) => {
@@ -118,6 +121,9 @@ const TopBar = (props) => {
         onOpen={handleOpen}
         value={sortBy}
         onChange={handleSelectChange}
+        classes={{
+          select: classes.select,
+        }}
       >
         {Object.keys(SORT_BY).map((sortKey) => (
           <MenuItem key={sortKey} value={sortKey}>{SORT_BY[sortKey]}</MenuItem>
