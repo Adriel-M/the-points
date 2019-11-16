@@ -36,7 +36,6 @@ const Home = () => {
     setFilter('');
     setSearchText('');
     setOffset(0);
-    setLimit(5);
     setSortBy(DEFAULT_SORT_BY);
   };
 
