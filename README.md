@@ -1,5 +1,5 @@
 # The Points
-A simple web app that is powered by Express and React to display the rushing stats found [here](https://github.com/Adriel-M/the-points/blob/master/src/server/RushingStore/rushing.json). A demo can be found [here](https://thepoints.adrielm.dev/)
+A simple web app that is powered by Express and React to display the rushing stats found [here](https://github.com/Adriel-M/the-points/blob/master/src/server/RushingStore/rushing.json). A demo can be found [here](https://thepoints.adrielm.dev/).
 
 ![alt text](./resources/screenshot.png "Screenshot")
 
@@ -35,6 +35,14 @@ npm run start
 ```
 
 This will build (bundle and minify) the frontend code and place it in the `build` folder. Running `start` will start up the express server that exposes the `graphql` endpoints and servers the built webapp.
+
+### Running Tests
+
+```
+npm run test
+```
+
+This will run `jest` tests on the code base.
 
 ### Deploying
 
